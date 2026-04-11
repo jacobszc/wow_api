@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("wowapi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+577aac429541d737213de1afcd137a1d884391bb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a6114efce0edfdd6375f9ba5de3d281167ed3424")]
 [assembly: System.Reflection.AssemblyProductAttribute("wowapi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("wowapi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

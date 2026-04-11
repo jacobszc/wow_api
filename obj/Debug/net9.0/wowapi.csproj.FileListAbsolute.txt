@@ -1,0 +1,7 @@
+C:\Users\Jacob\wowapi\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\Jacob\wowapi\obj\Debug\net9.0\wowapi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jacob\wowapi\obj\Debug\net9.0\wowapi.AssemblyInfoInputs.cache
+C:\Users\Jacob\wowapi\obj\Debug\net9.0\wowapi.AssemblyInfo.cs
+C:\Users\Jacob\wowapi\obj\Debug\net9.0\wowapi.csproj.CoreCompileInputs.cache
+C:\Users\Jacob\wowapi\obj\Debug\net9.0\wowapi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Jacob\wowapi\obj\Debug\net9.0\wowapi.sourcelink.json

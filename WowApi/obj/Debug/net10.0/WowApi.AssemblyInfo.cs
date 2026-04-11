@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WowApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+84e9ad81bd4baf4b55a2c98e4e0e6f58abd9f946")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a6114efce0edfdd6375f9ba5de3d281167ed3424")]
 [assembly: System.Reflection.AssemblyProductAttribute("WowApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WowApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

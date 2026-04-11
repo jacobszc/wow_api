@@ -18,7 +18,6 @@ C:\Users\Jacob\wowapi\WowApi\obj\Debug\net10.0\rjimswa.dswa.cache.json
 C:\Users\Jacob\wowapi\WowApi\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
 C:\Users\Jacob\wowapi\WowApi\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
 C:\Users\Jacob\wowapi\WowApi\obj\Debug\net10.0\scopedcss\bundle\WowApi.styles.css
-C:\Users\Jacob\wowapi\WowApi\obj\Debug\net10.0\compressed\jnopynhqxr-{0}-b9sayid5wm-b9sayid5wm.gz
 C:\Users\Jacob\wowapi\WowApi\obj\Debug\net10.0\compressed\xm0i9ao8xl-{0}-61n19gt1b8-61n19gt1b8.gz
 C:\Users\Jacob\wowapi\WowApi\obj\Debug\net10.0\compressed\0u7na3eu0p-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
 C:\Users\Jacob\wowapi\WowApi\obj\Debug\net10.0\compressed\qo55sh3h22-{0}-bqjiyaj88i-bqjiyaj88i.gz
@@ -90,3 +89,4 @@ C:\Users\Jacob\wowapi\WowApi\obj\Debug\net10.0\refint\WowApi.dll
 C:\Users\Jacob\wowapi\WowApi\obj\Debug\net10.0\WowApi.pdb
 C:\Users\Jacob\wowapi\WowApi\obj\Debug\net10.0\WowApi.genruntimeconfig.cache
 C:\Users\Jacob\wowapi\WowApi\obj\Debug\net10.0\ref\WowApi.dll
+C:\Users\Jacob\wowapi\WowApi\obj\Debug\net10.0\compressed\jnopynhqxr-{0}-u2a1z1tkis-u2a1z1tkis.gz
