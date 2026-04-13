@@ -1,12 +1,23 @@
-import { useState } from 'react'
+//import { useState } from 'react'
 import './App.css'
+import SearchComp from './SearchComp'
 
 function App() {
  
 
   return (
 
-    <h1>My Wow api homepage</h1>
+    <div class ="container-div">
+
+    <h1>stuff</h1>
+
+    <SearchComp></SearchComp>
+ 
+    
+
+    </div>
+
+    
     
   )
 }
