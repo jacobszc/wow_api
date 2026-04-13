@@ -89,4 +89,6 @@ C:\Users\Jacob\wowapi\WowApi\obj\Debug\net10.0\refint\WowApi.dll
 C:\Users\Jacob\wowapi\WowApi\obj\Debug\net10.0\WowApi.pdb
 C:\Users\Jacob\wowapi\WowApi\obj\Debug\net10.0\WowApi.genruntimeconfig.cache
 C:\Users\Jacob\wowapi\WowApi\obj\Debug\net10.0\ref\WowApi.dll
-C:\Users\Jacob\wowapi\WowApi\obj\Debug\net10.0\compressed\jnopynhqxr-{0}-u2a1z1tkis-u2a1z1tkis.gz
+C:\Users\Jacob\wowapi\WowApi\bin\Debug\net10.0\my-react-app\package-lock.json
+C:\Users\Jacob\wowapi\WowApi\bin\Debug\net10.0\my-react-app\package.json
+C:\Users\Jacob\wowapi\WowApi\obj\Debug\net10.0\compressed\jnopynhqxr-{0}-b9sayid5wm-b9sayid5wm.gz

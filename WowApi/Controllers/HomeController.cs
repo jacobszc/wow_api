@@ -10,7 +10,7 @@ public class HomeController : Controller
 public string Index()
     {
         
-        return "Default home controller, this should retunr in a controller isnt specified in program.cs";
+        return "Default home controller, this should return in a controller isnt specified in program.cs";
 
 
     }
