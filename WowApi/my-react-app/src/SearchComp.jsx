@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 
 function SearchComp() {
@@ -16,6 +16,41 @@ function customOnSubmit(e) {
    
 
  }
+
+
+
+ //// start useEffect for api call for sumbitted mouunt
+
+ useEffect(() => {
+
+ let ignore = false;
+
+
+ //let mountName = submittedItem;
+ let url = 'https://us.api.blizzard.com/data/wow/index';
+
+ fetch(url).then(response => {
+if (!response.ok) {
+   throw new Error("404 error. page not found")
+}
+
+return response.json()
+
+ }).then(data => console.log(data)).catch(error => console.error("Fetch error: " , error))
+
+
+
+
+ 
+
+
+ return () => ignore = true;
+
+ },[]) 
+
+
+
+ 
 
 
     return (
