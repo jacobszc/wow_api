@@ -23,23 +23,25 @@ function customOnSubmit(e) {
 
  useEffect(() => {
 
- let ignore = false;
+  let ignore = false;
+  let url = 'https://us.api.blizzard.com/data/wow/mount/index?namespace=static-us&locale=en_US';
+  if(!ignore) {
+  fetch(url, {
+    headers: {
+      'Authorization': 'Bearer US5AMd2g9bPWoi3uF1R3BxhGiABID1PPRk'
+    }
 
-
- //let mountName = submittedItem;
- let url = 'https://us.api.blizzard.com/data/wow/index';
-
- fetch(url).then(response => {
-if (!response.ok) {
+  }).then(response => {
+  if (!response.ok) {
    throw new Error("404 error. page not found")
-}
+  }
 
 return response.json()
 
  }).then(data => console.log(data)).catch(error => console.error("Fetch error: " , error))
 
 
-
+  } // end if check for ingore
 
  
 
