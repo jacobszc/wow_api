@@ -5,6 +5,14 @@ function SearchComp() {
 
 const [input, setInput] = useState("") // dynamic input that will change with key stroke
 const [submittedItem, setSubmittedItem] = useState(null) // cleaned and final input to be submitted to api
+const [mountJson, setMountJson] = useState(null)
+
+const myHeaders = new Headers();
+myHeaders.append('Authorization' ,  'Bearer US5AMd2g9bPWoi3uF1R3BxhGiABID1PPRk');
+const myInit = {
+  headers: myHeaders,
+};
+const myRequest = new Request('https://us.api.blizzard.com/data/wow/mount/index?namespace=static-us&locale=en_US', myInit )
 
 
 function customOnSubmit(e) {
@@ -17,6 +25,8 @@ function customOnSubmit(e) {
 
  }
 
+ //fetch(url, requestObject(HeaderObject))
+
 
 
  //// start useEffect for api call for sumbitted mouunt
@@ -24,14 +34,11 @@ function customOnSubmit(e) {
  useEffect(() => {
 
   let ignore = false;
-  let url = 'https://us.api.blizzard.com/data/wow/mount/index?namespace=static-us&locale=en_US';
+ 
   if(!ignore) {
-  fetch(url, {
-    headers: {
-      'Authorization': 'Bearer US5AMd2g9bPWoi3uF1R3BxhGiABID1PPRk'
-    }
-
-  }).then(response => {
+  
+  /// start of fetch /////////
+  fetch(myRequest).then(response => {
   if (!response.ok) {
    throw new Error("404 error. page not found")
   }
