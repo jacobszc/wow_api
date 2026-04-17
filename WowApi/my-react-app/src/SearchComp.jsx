@@ -1,12 +1,12 @@
 import { useState, useEffect } from "react";
-import {mountIndexRequest } from "./headers";
+import * as urls from "./headers";
 
 
 function SearchComp() {
 
-const [input, setInput] = useState("") // dynamic input that will change with key stroke
-const [submittedItem, setSubmittedItem] = useState(null) // cleaned and final input to be submitted to api
-const [mountJson, setMountJson] = useState(null)
+const [input, setInput] = useState(""); // dynamic input that will change with key stroke
+const [submittedMount, setSubmittedMount] = useState(null); // cleaned and final input to be submitted to api
+const [mountIndexObj, setMountIndexObj] = useState({});
 
 
 
@@ -16,7 +16,7 @@ function customOnSubmit(e) {
   const q = input.trim();
   if(!q) return;
   console.log("your on submit function has been called and the value is", {q})
-  setSubmittedItem(q)
+  setSubmittedMount(q)
    
 
  }
@@ -26,32 +26,32 @@ function customOnSubmit(e) {
 
 
  //// start useEffect for api call for sumbitted mouunt
-
+ const wowApiRequest = new Request(urls.mountIndexUrl , urls.wowApiInit);
  useEffect(() => {
-
+   
+  if(!submittedMount) return;
   let ignore = false;
- 
-  if(!ignore) {
+
+fetch(wowApiRequest).then((resolved) => {
+return resolved.json()
+}).then(data => console.log(data)).catch((error) =>{
+
+  console.log("fetch failed: " , error)
+}).finally(() => {
+  console.log("fetch complete")
+})
+
+   
   
-  /// start of fetch /////////
-  fetch(mountIndexRequest).then(response => {
-  if (!response.ok) {
-   throw new Error("404 error. page not found")
-  }
+return() => ignore = true;
 
-return response.json()
+  
+    
 
- }).then(data => console.log(data)).catch(error => console.error("Fetch error: " , error))
+},[submittedMount]) 
 
-
-  } // end if check for ingore
-
- 
-
-
- return () => ignore = true;
-
- },[]) 
+//// end useEffect
+ //console.log(mountIndexObj);
 
 
 
